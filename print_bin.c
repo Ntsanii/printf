@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * print_bin - unsigned int argument is
+ * converted to binary
+ * @val: value to be converted
+ * Return: return count
+ */
 int print_bin(va_list val)
 {
 	int flag = 0;
@@ -23,7 +28,7 @@ int print_bin(va_list val)
 	if (cont == 0)
 	{
 		cont++;
-		_putchar('0') ;
+		_putchar('0');
 	}
 	return (count);
 }

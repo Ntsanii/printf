@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * printf_int - prints integer
+ * print_int - prints integer
  * @args: argument to print
  * Return: number of characters printed
  */
@@ -44,7 +44,7 @@ int print_int(va_list args)
 }
 #include "main.h"
 /**
- * printf_int - prints integer
+ * print_dec - prints decimal
  * @args: argument to print
  * Return: number of characters printed
  */

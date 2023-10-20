@@ -6,11 +6,11 @@
  */
 int _strlen(char *str)
 {
-        int i;
+	int i;
 
-        for (i = 0; str[i] != 0; i++)
-                ;
-        return (i);
+	for (i = 0; str[i] != 0; i++)
+		;
+	return (i);
 }
 /**
  * _strlenc - Strlen function but applied for constant char pointer str.
@@ -19,9 +19,9 @@ int _strlen(char *str)
  */
 int _strlenc(const char *str)
 {
-        int i;
+	int i;
 
-        for (i = 0; str[i] != 0; i++)
-                ;
-        return (i);
+	for (i = 0; str[i] != 0; i++)
+		;
+	return (i);
 }
